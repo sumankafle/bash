@@ -1,55 +1,39 @@
-# Prerequisites
-*.d
+# macOS
+._*
+.DS_Store
+.LSOverride
+# Icon must end with two carriage returns (\r)
+Icon
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Windows
+[Dd]esktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+[Tt]humbs.db
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Backups
+*.bak
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs
+*.log
+log/
+logs/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Temporary
+*~
+*.tmp
+*.temp
+tmp/
+temp/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Vim
+.netrwhist
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]*.un~
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
 
 # debug information files
 *.dwo
