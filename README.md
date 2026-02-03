@@ -16,16 +16,3 @@ All scripts are written and tested on **Ubuntu (Linux)**.
 
 ---
 
-## Repository Structure
-
-```text
-bash/
-│
-├── basics/            # Variables, loops, conditions, functions
-├── file_handling/     # Files, directories, permissions
-├── text-processing/  # grep, sed, awk, cut, sort
-├── process/          # ps, top, kill, background jobs
-├── automation/       # Backup, cleanup, cron-ready scripts
-├── networking/       # curl, wget, ping, netstat
-├── system/           # Disk, memory, CPU monitoring
-└── README.md
